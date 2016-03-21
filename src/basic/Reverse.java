@@ -15,3 +15,7 @@ public class Reverse {
         System.out.println();
     }
 }
+/* running result
+감 호박 수박 사과 배
+배 사과 수박 호박 감 
+*/
