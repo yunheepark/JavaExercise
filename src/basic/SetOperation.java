@@ -30,4 +30,9 @@ public class SetOperation {
         int[] D = union(A, B);
         print_array(D);
     }
+
+    /* execution result
+        3 5
+        1 2 3 4 5 7 8 9
+    */
 }
