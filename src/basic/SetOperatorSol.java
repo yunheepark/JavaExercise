@@ -2,7 +2,7 @@ package basic;
 /**
  * Created by jyheo on 2016-03-22.
  */
-public class SetOperator {
+public class SetOperatorSol {
     public static int[] union(int[] A, int[] B) {
         // TODO: return union of set A and B
         int[] C = new int[A.length + B.length];
