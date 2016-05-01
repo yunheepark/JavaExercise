@@ -67,7 +67,7 @@ class MyFish extends MyObject implements MoveDrawable {
     }
 }
 
-public class Lake {
+public class LakeAL {
     private int width;
     private int height;
     private final int max_objects = 10;
@@ -75,7 +75,7 @@ public class Lake {
     private Movable[] movables = new Movable[max_objects];
     private int movables_num = 0;
 
-    public Lake(int width, int height) {
+    public LakeAL(int width, int height) {
         this.width = width;
         this.height = height;
     }
@@ -122,7 +122,7 @@ public class Lake {
     }
 
     public static void main(String args[]) {
-        Lake lake = new Lake(80, 20);
+        LakeAL lake = new LakeAL(80, 20);
         MyFish f = new MyFish("FIsh", "<#--<", 1, 1);
         lake.addMyObject(f);
         lake.addMyObject(new MyRock("Rock", "(##)", 10, 10));
