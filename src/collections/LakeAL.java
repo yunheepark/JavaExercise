@@ -107,9 +107,7 @@ public class LakeAL {
         for (int i = 0; i < height; i++) {
             System.out.print("|");
             for (int j = 0; j < width; j++) {
-                Iterator<Drawable> it = drawables.iterator();
-                while (it.hasNext()) {
-                    Drawable d = it.next();
+                for (Drawable d : drawables) {
                     d.display(j, i);
                 }
                 System.out.print(" ");
